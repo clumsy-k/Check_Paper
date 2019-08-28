@@ -10,7 +10,8 @@
 import urllib.request
 from xml.etree.ElementTree import *
 
-keyword = 'cancer'
+# keyword = 'cancer'
+keyword = raw_input('Please keyword: ')
 idfile  = 'idlist_' + keyword + '.txt'
 baseURL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id='
 

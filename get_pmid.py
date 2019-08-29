@@ -12,6 +12,7 @@ from xml.etree.ElementTree import *
 
 # single keyword,   keyword = 'cancer'
 # multiple keyword, keyword = 'cancer+colon'
+# Data range, two parameters : mindate, maxdate
 keyword = 'cancer+colon'
 baseURL = 'http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term='
 
